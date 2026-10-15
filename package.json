@@ -1,0 +1,19 @@
+{
+  "name": "panasonic-matter-ac",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Control a Panasonic room air conditioner locally over Matter, plus notes on what it exposes",
+  "type": "module",
+  "bin": {
+    "ac": "./ac.mjs"
+  },
+  "scripts": {
+    "discover": "scripts/discover.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@matter/nodejs-shell": "0.17.9"
+  }
+}
